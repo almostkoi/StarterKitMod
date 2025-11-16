@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "starterkitmod",
+  "version": "${version}",
+  "name": "Starter Kit Mod",
+  "description": "A simple mod to give a starter kit of items via command.",
+  "authors": [
+    "Manus AI"
+  ],
+  "contact": {
+    "homepage": "https://github.com/almostkoi/StarterKitMod",
+    "sources": "https://github.com/almostkoi/StarterKitMod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/starterkitmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.manus.starterkit.StarterKitMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

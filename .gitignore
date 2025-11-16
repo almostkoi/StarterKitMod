@@ -1,0 +1,24 @@
+# Gradle files
+.gradle/
+build/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Minecraft/Fabric
+.mixin.out/
+.vscode/
+.cache/
+.classpath
+.project
+.settings/
+generated/
+local/
+mappings/
+minecraft/
+run/
+versions/
+fabric-example-mod-*.jar
+!fabric-example-mod-*-sources.jar
